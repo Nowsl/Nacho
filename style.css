@@ -27,8 +27,11 @@ body{
     background-color: mediumorchid;
     width:10vw;
     float: left;
-    height: 10  0%;
+    height: 100%;
     text-align: center;
+}
+.material-symbols-outlined.md-36{
+    font-size: 5em;;
 }
 #header_busqueda{
     background-color: royalblue;
