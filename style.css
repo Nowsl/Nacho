@@ -17,19 +17,28 @@ body{
     background-color:blueviolet;
     width:10vw;
     float: left;
+    height: 100%;
+    text-align: center;
+}
+#header_logo > img{
+    width: 50%;
 }
 #header_menu{
     background-color: mediumorchid;
     width:10vw;
     float: left;
+    height: 10  0%;
+    text-align: center;
 }
 #header_busqueda{
     background-color: royalblue;
     width:40vw;
     float: left;
+    height: 100%;
 }
 #header_botones{
     background-color:green;
     width:30vw;
     float: left;
+    height: 100%;
 }
