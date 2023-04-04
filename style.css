@@ -1,9 +1,35 @@
 header{
     background-color: rgb(0, 0, 255);
+    height: 10vh;
 }
 main{
     background-color: rgb(255, 255, 255);
+    height: 80vh;
 }
 footer{
     background-color: red;
+    height: 10vh;
+}
+body{
+    background-color: gray;
+}
+#header_logo{
+    background-color:blueviolet;
+    width:10vw;
+    float: left;
+}
+#header_menu{
+    background-color: mediumorchid;
+    width:10vw;
+    float: left;
+}
+#header_busqueda{
+    background-color: royalblue;
+    width:40vw;
+    float: left;
+}
+#header_botones{
+    background-color:green;
+    width:30vw;
+    float: left;
 }
