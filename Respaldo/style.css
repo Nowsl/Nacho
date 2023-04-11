@@ -54,6 +54,13 @@ body{
     float: left;
     height: 100%;
 }
+
+#header_busqueda:hover{
+    background-color: blue;
+    width: 10%;
+    
+}
+
 #header_botones{
     background-color:green;
     width:30vw;
