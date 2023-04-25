@@ -16,37 +16,37 @@
 
 <body>
     <header class="container-fluid bg-danger">
-        <nav class="navbar bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
+        <!-- Menu -->
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 text-white">Inicio</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Diseño</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Consulta</a></li>
+        </ul>
+
+        <form class="flex-row-reverse align-items-center" role="search">
+            <button type="button" class="btn btn-warning">Buscar</button>
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                aria-label="Search">
+        </form>
+
+        <div class="flex-row-reverse align-items-center">
+            <button type="button" class="btn btn-outline-light me-2">Iniciar Sesion</button>
+            <button type="button" class="btn btn-outline-light me-2">Registrarse</button>
+
+            </nav class="navbar bg-body-tertiary fixed-top">
+            <div class="text-center">
                 <a class="navbar-brand" href="#">
-                    <img src="logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                    FromSoftware
-                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                                <use xlink:href="#bootstrap"></use>
-                            </svg>
-                        </a>
-
-                        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                            <li><a href="#" class="nav-link px-2 text-white">Inicio</a></li>
-                            <li><a href="#" class="nav-link px-2 text-white">Diseño</a></li>
-                            <li><a href="#" class="nav-link px-2 text-white">Consulta</a></li>
-                        </ul>
-
-                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                            <input type="search" class="form-control form-control-dark text-bg-dark"
-                                placeholder="Search..." aria-label="Search">
-                        </form>
-
-                        <div class="text-end">
-                            <button type="button" class="btn btn-outline-light me-2">Iniciar Sesion</button>
-                            <button type="button" class="btn btn-warning">Registrarse</button>
-                        </div>
-                    </div>
+                    <h1>𝕱𝖗𝖔𝖒𝕾𝖔𝖋𝖙𝖜𝖆𝖗𝖊</h1>
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-        </nav>
+        </div>
+
+        <!-- Boton multiple -->
+
     </header>
     <main class="container-fluid">
         <!-- Primera Linea -->
@@ -62,7 +62,7 @@
                                 sumergirte en la oscuridad!
                             </h6>
                             <a href="https://store.steampowered.com/app/374320/DARK_SOULS_III/"
-                                class="btn btn-primary">Ver</a>
+                                class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -77,12 +77,12 @@
                                 como señor del Círculo en las Tierras Intermedias.
                             </h6>
                             <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/"
-                                class="btn btn-primary">Ver</a>
+                                class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
                 <!-- Tercera Linea -->
-                <div class="col">
+                <div class="col-3">
                     <div class="card" style="width: 18rem;">
                         <img src="./Img/Sekiro.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -93,7 +93,7 @@
                                 ingenio.
                             </h6>
                             <a href="https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/"
-                                class="btn btn-primary">Ver</a>
+                                class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                                 Entertainment para la plataforma de PlayStation 4
                             </h6>
                             <a href="https://simple.ripley.cl/bloodborne-ps4-juego-fisico-mpm00009506002?gclid=CjwKCAjw0ZiiBhBKEiwA4PT9z9ZVACk11ms1rMa_ooDWrOI2qA4DXuuJVhlgn6phUIynkQQlfYjWDRoC68MQAvD_BwE&s=mdco"
-                                class="btn btn-primary">Ver</a>
+                                class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -126,12 +126,12 @@
                                 consola PlayStation 3 bajo la supervisión de Japan Studio
                             </h6>
                             <a href="https://articulo.mercadolibre.cl/MLC-1245559328-demons-souls-ps3-fisico-mundojuego-_JM?matt_tool=38568177&matt_word=&matt_source=google&matt_campaign_id=14571116346&matt_ad_group_id=140017503999&matt_match_type=&matt_network=g&matt_device=c&matt_creative=619480448059&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=341046065&matt_product_id=MLC1245559328&matt_product_partition_id=404867651511&matt_target_id=aud-1934078572965:pla-404867651511&gclid=CjwKCAjw0ZiiBhBKEiwA4PT9z0Gg1FnglBTBXcpQi97eQv6I_xlfC_oGjTQMSZTmQ58iUOxPrKCkyhoCztUQAvD_BwE"
-                                class="btn btn-primary">Ver</a>
+                                class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
                 <!-- Sexta Linea -->
-                <div class="col">
+                <div class="col-3">
                     <div class="card" style="width: 18rem;">
                         <img src="DS2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -145,7 +145,7 @@
                                 increíbles e intensas
                             </h6>
                             <a href="https://store.steampowered.com/app/236430/DARK_SOULS_II/"
-                                class="btn btn-primary">Ver</a>
+                                class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
