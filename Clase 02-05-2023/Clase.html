@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina web</title>
     <script>
         window.addEventListener("load", () => {
             elboton = document.getElementById("aceptar");
@@ -15,7 +15,7 @@
                 mensaje = document.getElementById("mensaje");
                 if (username == "admin@admin.com" && clave == "12345") {
                     mensaje.innerHTML = "Datos Correctos";
-                    mensaje.style.color = "green";
+                    mensaje.style.color= "green";
                 }
                 else {
                     mensaje.innerHTML = "Datos Incorrectos"
@@ -34,13 +34,13 @@
 </form>
 
 <body>
-    <header>HEADER </header>
+    <header>HEADER</header>
     <main>
-        Escriba su email:<input type="email" name="username" id="username">
+        Correo:<input type= "email" name="Usuario" id="username">
         <br>
-        Escriba su clave: <input type="password" name="clave" id="clave">
+        Contraseña: <input type= "password" name="clave" id="clave">
         <br>
-        <input type="button" value="Acceder" id="aceptar">
+        <input type="button" value= "Acceder" id="aceptar">
         <div id="mensaje">EL MENSAJE</div>
     </main>
     <footer>
