@@ -7,19 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        function nombreFuncion(elvalor=0){
+        function nombreFuncion(elvalor=0, elvalor2=0){
+            console.log('HOLA MUNDO DESDE CONSOLA' + elvalor);
+            console.log("HOLA MUNDO" + elvalor + "DESDE CONSOLA");
+            console.log(`HOLA MUNDO ${elvalor2} DESDE CONSOLA`);
+        }
+        //Exprecion Lambda
+        const Mivariable = (elvalor=0, elvalor2=0)=>{
             console.log('HOLA MUNDO DESDE CONSOLA' + elvalor);
             console.log("HOLA MUNDO" + elvalor + "DESDE CONSOLA");
             console.log(`HOLA MUNDO ${elvalor} DESDE CONSOLA`);
         }
-        nombreFuncion(123);
+        //nombreFuncion(123);
     </script>
 </head>
 
 <body>
     HOLA MUNDO
-    <input onchange="nombreFuncion(this.value)" />
-    <button onclick="nombreFuncion()">HACE CLICK</button>
+    <input onchange= "nombreFuncion(this.value, 999)" />
+    <button onclick= "Mivariable()">HACE CLICK</button>
 
 </body>
 
