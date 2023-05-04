@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function nombreFuncion(elvalor=0){
+            console.log('HOLA MUNDO DESDE CONSOLA' + elvalor);
+            console.log("HOLA MUNDO" + elvalor + "DESDE CONSOLA");
+            console.log(`HOLA MUNDO ${elvalor} DESDE CONSOLA`);
+        }
+        nombreFuncion(123);
+    </script>
+</head>
+
+<body>
+    HOLA MUNDO
+    <input onchange="nombreFuncion(this.value)" />
+    <button onclick="nombreFuncion()">HACE CLICK</button>
+
+</body>
+
+</html>
