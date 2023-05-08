@@ -12,6 +12,24 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Fondo/Pantalla.css" />
+        <script>
+            window.addEventListener("load", () => {
+                elboton = document.getElementById("aceptar");
+                elboton.addEventListener("click", () => {
+                    username = document.getElementById("username").value;
+                    clave = document.getElementById("clave").value;
+                    mensaje = document.getElementById("mensaje");
+                    if (username == "admin@admin.com" && clave == "12345") {
+                        mensaje.innerHTML = "Datos Correctos";
+                        mensaje.style.color= "green";
+                    }
+                    else {
+                        mensaje.innerHTML = "Datos Incorrectos"
+                        mensaje.style.color = "red";
+                    }
+                });
+            });
+        </script>     
 </head>
 
 <body>
